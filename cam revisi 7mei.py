@@ -15,7 +15,7 @@ L1 = l1*37.7952755906  # link 1 in px
 L2 = l2*37.7952755906  # link 2 in px
 
 
-# open serial comms
+# # open serial comms
 ser = serial.Serial('/dev/ttyACM0', 9600)
 fmt = 'ff'
 
